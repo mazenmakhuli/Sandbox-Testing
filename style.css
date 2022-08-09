@@ -3,12 +3,23 @@ html, body {
   width: 100%;
 }
 
+body {
+  background-color: #1F1F1F;
+}
+
 header {
   padding: 20px;
 }
 
 section {
   padding: 20px;
+}
+a {
+  transition: 0.2s ease;
+}
+
+.logo img {
+  max-width: 50px;
 }
 
 
@@ -30,4 +41,21 @@ section {
   flex-direction: row;
   list-style: none;
   gap: 20px;
+}
+
+.nav-item li {
+  text-align: center;
+}
+
+.nav-item a {
+  color: #585858;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+  font-style: none;
+  text-align: center;
+
+}
+
+.nav-item a:hover {
+  color: #adadad;
 }
